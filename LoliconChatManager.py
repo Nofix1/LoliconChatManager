@@ -1147,10 +1147,7 @@ class LoliconChatManagerMod(loader.Module):
         "usage": "ℹ️ <b>Usage: .{} &lt;on/off&gt;</b>",
         "chat_only": "ℹ️ <b>This command is for chats only</b>",
         "version": (
-            "<emoji document_id=5440551785284510215>🎢</emoji> <b>{}</b>\n\n<emoji"
-            " document_id=5454182070156794055>🤘</emoji> <b>Author:"
-            " t.me/hikariatama</b>\n<emoji document_id=6325750691088303497>☺️</emoji>"
-            " <b>Downloaded from @hikarimods</b>\n<b>{}</b>"
+            "<emoji document_id=5251527491448749189>🌟</emoji> <b>ЛоликонЧатМенеджер</b>\nВерсия: 0.0.1release\nРазработчик: @AHIMETYAHKA"
         ),
         "error": (
             "<emoji document_id=6053166094816905153>💀</emoji> <b>LoliconChatManager Issued"
@@ -6185,8 +6182,7 @@ class LoliconChatManagerMod(loader.Module):
 
         # We can override class docstings because of abc meta
         self.__doc__ = (
-            "LoliconChatManager\nРазработчик: @AHIMETYAHKA"
-            "Команды: .help LoliconChatManager"
+            "\nКоманды: .help LoliconChatManager"
         )
 
         self._pt_task = asyncio.ensure_future(self._global_queue_handler())
